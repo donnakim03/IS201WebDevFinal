@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="../css/layoutStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#topOfPage">Home</a> |
+        <a href="#description">Show Description</a> |
+        <a href="#myReview">Review</a> |
+        <a href="#trailer">Trailer</a> |
+        <a href="#tableauGraph">Fun Info</a> |
+        <a href="#resume">Who I am</a>
+        <a href="html/resume.html">(Resume)</a>
+    </nav>
+    <div class="myPageTitle" id="topOfPage">
+        <h1>Show Review of the Month</h1>
+        <img src="assets/img/tedLassoPoster.jpg" alt="Poster of Ted Lasso" height="500px">
+    </div>
+    <br><br><br><br><br>
+    <div class="centerText" id="description">
+        <h2>Description</h2>
+        <p class="description"><a href="https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy">"Jason Sudeikis is a football coach leading a British soccer team. What he lacks in knowledge, he makes up for with optimism...and biscuits." - Apple TV</a></p>
+    </div>
+    <br><br><br><br><br>
+    <section id="myReview">
+        <h2>My Review</h2>
+        <div>
+            <h3>My Favorite Characters</h3>
+            <ol>
+                <li>Ted Lasso
+                    <ul>
+                        <li>They did a good job in making Lasso a complicated yet likeable character.</li>
+                        <li>His energy just radiates his great understanding about believing.</li>
+                        <li>He just makes me happy.</li>
+                    </ul>
+                </li>
+                <li>Roy Kent
+                    <ul>
+                        <li>His swearing...excessive yet so necessary.</li>
+                        <li>His attitude... I'm just in love.</li>
+                        <li>He is the one of the only rare men that I think pulls off a beard so well.</li>
+                    </ul>
+                </li>
+                <li>Rebecca
+                    <ul>
+                        <li>I love that she has flaws and strengths and encapsulates this wide range of characteristics of being human and a woman.</li>
+                        <li>She feels like a real person you can relate to, despite her status and wealth.</li>
+                        <li>Queen... have you seen her arms???</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <br><br>
+        <div>
+            <h3>My Favorite Episode</h3>
+            <p>My favorite episode so far is Season 1 Episode 10, "The Hope That Kills You."</p>
+            <p>*Spoiler*</p>
+            <p>This episode showed the audience that results are not always expected. It made me reflect on what "believing" truly is and what I believe in for the long run. The sadness the team and all related personnels felt existed. Yet, the bond, the peacefullness, and other human emotions that make us feel okay could also be felt.</p>
+        </div>
+        <br><br>
+        <div>
+            <h3>My One Line Review</h3>
+            <p class="description centerText">"Makes me feel lucky that I'm a human capable of memory and not a goldfish."</p>
+        </div>
+    </section>
+    <br><br><br><br><br>
+
+    <div class="centerText" id="trailer">
+        <h2>Ted Lasso - Official Trailer</h2>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/3u7EIiohs6U"></iframe>
+    </div>
+    <br><br><br><br><br>
+
+    <section class="centerText" id="tableauGraph">
+        <h2>Fun Info!</h2>
+        <div class='tableauPlaceholder' id='viz1687517901477' style='margin:auto;'>
+            <noscript><a href='#'><img alt='TedLassoReferences ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TedLassoPopCultureReferences&#47;TedLassoReferences&#47;1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                <param name='name' value='TedLassoPopCultureReferences&#47;TedLassoReferences' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TedLassoPopCultureReferences&#47;TedLassoReferences&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div> 
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1687517901477');
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1366px';vizElement.style.height='795px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='3877px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+    </section>
+    <br><br><br><br><br>
+    
+    <!-- Who I Am: Link to my professional website -->
+    <div class="centerText" id="resume">
+        <h2>Who I Am</h2>
+        <p>My name is Donna Kim, and I love watching movies and shows. The ability that we hold to tell the complexities of life through stories is one I will be forever grateful for.</p>
+        <p>If you want to know more about who I am professionally, press the link below to go to my resume</p>
+        <a href="html/resume.html">Resume</a>
+    </div>
+</body>
+</html>
